@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Friend {
 
-	public void JustFriend() {
+	public void justFriend() {
 		
 		System.out.println("Just Friend!");
 
