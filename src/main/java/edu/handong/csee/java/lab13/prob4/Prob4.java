@@ -25,7 +25,7 @@ public class Prob4 {
 
 		cat.setName(catName);
 		cat.getName();
-		master.feed(dog);
+		master.feed(cat);
 
 		dog.setName(dogName);
 		dog.getName();
