@@ -7,7 +7,7 @@ public class Animal { // a class which can access from other package
 	public void setName(String name) { // void method, has string type input value 
 		this.name = name; // stores input value in name member animal class
 	}
-	
+
 	public void getName() { // has no input value and return value.
 		System.out.println("Name: " + name); // print the statement name value
 	}

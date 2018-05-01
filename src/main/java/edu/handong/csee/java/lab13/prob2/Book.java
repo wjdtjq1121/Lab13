@@ -11,15 +11,15 @@ public class Book { // a class which can access from other package
 		idCount++; // increases size 1 idcount
 		id = idCount; // stores the idcount value in id;
 	}
-	
+
 	public String toString() // this method has string return value, and no input value for this method
 	{
-	return "\n\tId: " + id + "\n\tBook Name: " + bookName;	//return the statement id and id value and book name and book name value;
+		return "\n\tId: " + id + "\n\tBook Name: " + bookName;	//return the statement id and id value and book name and book name value;
 	}
 
 	public void show() // method has no input value and return value
 	{
 		System.out.println("<<Book>>" + this.toString()); // print the statement book and calls tostring method
 	}
-	
+
 }
