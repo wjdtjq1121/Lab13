@@ -7,9 +7,9 @@ public class Prob2 { // a class which can access from other package
 		Science science = new Science("Hello Physics", "ScienceWorld"); // Name, publisher - makes a science instance, put input values in constructor
 		History history1 = new History("What Is history?", "E.H.Brian"); //Name, Author - makes a history1 instance, put input values in constructor
 
-		book.show(); // calls a show method with book instance
-		science.show(); // calls a show method with science instance
-		history1.show(); // calls a show method with history1 instance
+		book.toShow(); // calls a show method with book instance
+		science.toShow(); // calls a show method with science instance
+		history1.toShow(); // calls a show method with history1 instance
 	}
 
 }

@@ -6,7 +6,7 @@ public class Prob4 { // class which can access from other package
 
 	public void feed(Pet pet) // void method has pet interface as input value
 	{
-		System.out.println("feed: " + pet.food()); // print the statement feed and call food method
+		System.out.println("feed: " + pet.showFood()); // print the statement feed and call food method
 	}
 
 

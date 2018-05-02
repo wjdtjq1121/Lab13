@@ -9,11 +9,11 @@ public class Rectangle extends Shape { // a class which can access from other pa
 		this.width = width; // stores width input value in width rect class member
 	}
 
-	public double area() // method no input value, has return value double type
+	public double getArea() // method no input value, has return value double type
 	{
 		return length*width; // returns the area value
 	}
-	public double perimeter() // method no input value, has return value double type 
+	public double getPerimeter() // method no input value, has return value double type 
 	{
 		return 2*(length+width); // returns perimeter value
 	}

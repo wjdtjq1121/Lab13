@@ -4,7 +4,7 @@ import java.util.Scanner; // bring the scanner class from java library
 
 public class Prob5 { // a class which can access from other package
 
-	public static boolean equals(int[][] m1, int[][] m2) { // static boolean method, has two 2d array input
+	public static boolean checkEquals(int[][] m1, int[][] m2) { // static boolean method, has two 2d array input
 		int count=0; // declares count member as zero
 		if(m1.length != m2.length) // if the number of row is different, return false
 			return false; // if condition is true return false
@@ -59,7 +59,7 @@ public class Prob5 { // a class which can access from other package
 		}
 		System.out.println(); // print new line
 
-		if(equals(m1, m2)) // condition if m1 and m2 are equal
+		if(checkEquals(m1, m2)) // condition if m1 and m2 are equal
 			System.out.println("The two arrays are approximately identical."); // print the specific statement
 		else // otherwise
 			System.out.println("The two arrays are not identical");	// print the specific statement

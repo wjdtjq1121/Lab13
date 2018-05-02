@@ -14,7 +14,7 @@ public class History extends Book{ // a class history inherits book, this can ac
 		return super.toString() + "\n\tAuthor: " + author; // returns parent tostring method and author value 
 	}
 
-	public void show() // method no return value and input value
+	public void toShow() // method no return value and input value
 	{
 		System.out.println("<<History>>" + this.toString()); // print the statement and call tostring method
 	}

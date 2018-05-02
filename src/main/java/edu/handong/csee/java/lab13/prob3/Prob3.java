@@ -14,7 +14,7 @@ public class Prob3 { // a class which can access from other package
 		Circle c1 = new Circle(n1); // set up things and put n1 member value so the constructor can execute
 
 		System.out.println("Radius: " + c1.getRadius()); // print the statement radius value
-		c1.display(); // call display method to show the value
+		c1.toDisplay(); // call display method to show the value
 
 		System.out.print("Enter length and width: "); // print the statement to ask the user to put values
 		n1 = keyboard.nextDouble(); // stores double type value in n1
@@ -23,7 +23,7 @@ public class Prob3 { // a class which can access from other package
 
 		System.out.println("Length: " + r1.getLength()); // print the statement to show the length value
 		System.out.println("Width: " + r1.getWidth()); // print the statement to show the width value
-		r1.display(); // call display method to show the value
+		r1.toDisplay(); // call display method to show the value
 	}
 
 }

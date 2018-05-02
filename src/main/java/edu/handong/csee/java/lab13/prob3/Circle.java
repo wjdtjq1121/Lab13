@@ -7,11 +7,11 @@ public class Circle extends Shape{ // a class which can access from other packag
 		radius = r; // stores r input value in radius member in circle class
 	}
 
-	public double area() // method no input value, has return value.
+	public double getArea() // method no input value, has return value.
 	{
 		return Math.PI * Math.pow(radius, 2); // pi * r * r, calculates area value and return it
 	}
-	public double perimeter() // method no input value, has return value
+	public double getPerimeter() // method no input value, has return value
 	{
 		return 2.0 * Math.PI * radius; // 2*pi*radius, calculates value and return it
 	}

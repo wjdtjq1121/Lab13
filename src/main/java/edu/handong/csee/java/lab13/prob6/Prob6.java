@@ -8,9 +8,9 @@ public class Prob6 { // class which can access from other package
 		DownPoint p3 = new DownPoint(4,7); // creating a thing p3, put 4, 7 input value
 		UpPoint p4 = new UpPoint(9,12); // creating a thing p4, put 9, 12 input value
 
-		Printer.print(p1); // call print method in printer class with p1 value
-		Printer.print(p2); // call print method in printer class with p2 value
-		Printer.print(p3); // call print method in printer class with p3 value
-		Printer.print(p4); // call print method in printer class with p4 value
+		Printer.toPrint(p1); // call print method in printer class with p1 value
+		Printer.toPrint(p2); // call print method in printer class with p2 value
+		Printer.toPrint(p3); // call print method in printer class with p3 value
+		Printer.toPrint(p4); // call print method in printer class with p4 value
 	}
 }

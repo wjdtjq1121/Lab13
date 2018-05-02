@@ -2,7 +2,7 @@ package edu.handong.csee.java.lab13.prob6; // set the package where this belongs
 
 public class Printer { // class which can access from other package
 
-	public static void print(Object object) // static void method, has object input value
+	public static void toPrint(Object object) // static void method, has object input value
 	{
 		String str = object.toString(); // calling method and store the value in str
 		if(object instanceof CapitalPrintable) // condition if object is a type of capitalprintable

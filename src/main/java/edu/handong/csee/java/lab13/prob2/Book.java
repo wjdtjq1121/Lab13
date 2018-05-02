@@ -17,7 +17,7 @@ public class Book { // a class which can access from other package
 		return "\n\tId: " + id + "\n\tBook Name: " + bookName;	//return the statement id and id value and book name and book name value;
 	}
 
-	public void show() // method has no input value and return value
+	public void toShow() // method has no input value and return value
 	{
 		System.out.println("<<Book>>" + this.toString()); // print the statement book and calls tostring method
 	}
